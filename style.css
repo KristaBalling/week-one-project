@@ -1,21 +1,24 @@
 #logo {
   width: 50px;
+  margin-bottom: -80px;
 }
 
 header {
   display: inline-block;
   width: 98%;
   background-color: white;
+  margin-top: -50px;
 }
 
-nav { display:inline-block;
+nav { display: block;
   display: flex;
   justify-content: center;
-
 }
-nav a{
+nav a {
 margin: 30px;
 color: #2b2f26;
+
+
 }
 
 a:visited {
@@ -24,37 +27,84 @@ a:visited {
 
 body{
   background-color: #f2f1e8;
+  border: 2px solid #ffff;
 }
 
-h1 { font-size: 50px;
+h1 {
   display: flex;
   justify-content: center;
-  color: #131511
-  font-family: helvetica;
+  color: #131511;
+  font-size: 2.5em;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #131511;
+  font-size: 1.5em;
+
 }
 
 #pic_set1 {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-around;
   margin: 50px;
 
 }
 
 #pic_set1 img {
   height: 375px;
-  width: 400px;
-  margin: 1px;
+  width: 450px;
+  margin: -25px;
 }
+
 
 #pic_set2 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-
-  }
+}
 
 #pic_set2 img {
-  height: 325px;
-  width: 325px;
-  margin: 5px;
+  height: 310px;
+  width: 335px;
+  margin: -40px;
+  margin-top: -50px;
+margin-bottom: 5px;
+}
+
+#pic_set1 figure {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+#pic_set1 figcaption {
+  position: absolute;
+  bottom: -10px;
+  color: #ffffe6;
+  background-color: #0d260d;
+  padding: 10px 20px 10px 20px;
+}
+
+#pic_set2 figure {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+#pic_set2 figcaption {
+  position: absolute;
+  bottom: 20px;
+  color: #ffffe6;
+  background-color: #0d260d;
+  padding: 10px 20px 10px 20px;
+}
+
+footer {
+  display: block;
+  background-color: #0d260d;
+  height: 100px;
+  color: #ffffe6;
+  padding-top: 20px;
+  border: 1px solid #ffff;
 }
