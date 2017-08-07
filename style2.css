@@ -1,0 +1,173 @@
+#logo {
+  width: 50px;
+  margin-bottom: -75px;
+  margin-top: 20px;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  margin-top: -50px;
+}
+
+nav {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+margin: 30px;
+color: #2b2f26;
+font-size: 1em;
+font-family: 'Merriweather', 'Roboto', sans-serif, serif;
+font-weight:lighter;
+}
+
+a:visited {
+  color: #968772;
+}
+
+body {
+  background-color: #f2f1e8;
+  color:  #131511;
+  font-family: 'Merriweather', 'Roboto', sans-serif, serif;
+  font-size: 1em;
+  font-weight:500;
+}
+
+#birdhouse {
+  height: 150px;
+  width: 190;
+  float: left;
+  margin-left: 100px;
+  padding-right: 20px;
+}
+
+#first_p {
+  font-size: 1.1em;
+  margin-right: 100px;
+  margin-left: 10px;
+}
+
+#firstP_set {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#roomtogrow {
+  height: 600px;
+  width: 1300px;
+  margin-left: 0;
+  margin-right: -50px;
+}
+
+#facilities {
+  height: 125px;
+  width: 175px;
+  float: right;
+}
+
+#facilities_fig {
+  display: inline-block;
+  width: 200px;
+  font-size: 15px;
+}
+
+#facilities_fig figure {
+  margin-left: -15px;
+}
+
+#secondP_set h1 {
+  font-weight:lighter;
+}
+
+#secondP_set {
+  margin-right: 100px;
+  margin-left: 100px;
+  display:inline-block;
+  width: 800px;
+}
+
+#quote {
+  border-left: 2px solid #2b2f26;
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px 20px 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#second_p {
+  display: inline-block;
+  width: 98%;
+}
+
+#artists {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  font-weight:400;
+}
+
+#monthly_plans {
+  font-weight: lighter;
+  font-size: 1.4em;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+#History {
+  font-weight: lighter;
+}
+
+ #roomto_caption figure {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+  }
+
+  #roomto_caption figcaption {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    bottom: 300px;
+    font-size: 3em;
+    color: white;
+    padding: 5px 15px 5px 10px;
+  }
+
+#table {
+  display: inline-block;
+  margin-left: 100px;
+  text-align:center;
+  padding-bottom: 100px;
+}
+
+  td {
+    border: 1px solid black;
+    width: 250px;
+    height: 75px;
+  }
+
+#table tr:nth-child(odd) {
+  background-color: #ffffe6;
+}
+
+ .third {
+   width: 500px;
+ }
+
+ footer {
+   display: block;
+   background-color: #0d260d;
+   height: 100px;
+   color: #ffffe6;
+   padding-top: 20px;
+   border: 1px solid #ffff;
+ }

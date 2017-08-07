@@ -1,0 +1,90 @@
+#logo {
+  width: 50px;
+  margin-bottom: -75px;
+  margin-top: 20px;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  margin-top: -50px;
+}
+
+nav {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+margin: 30px;
+color: #2b2f26;
+font-size: 1em;
+font-family: 'Merriweather', 'Roboto', sans-serif, serif;
+font-weight:lighter;
+}
+
+a:visited {
+  color: #968772;
+}
+
+#background_pic {
+  width: 1445px;
+}
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+
+  position: relative;
+}
+
+#form {
+  position: absolute;
+  bottom: 350px;
+  left: 390px;
+  width: 700px;
+  height: 350px;
+
+  background-color: white;
+  padding: 5px 15px 5px 10px;
+}
+
+#nameInput {
+  width: 600px;
+  border-bottom: 2px solid brown;
+  height: 20px;
+}
+
+#emailInput {
+  width: 600px;
+  border-bottom: 2px solid brown;
+  height: 20px;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  margin:40px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight:lighter;
+}
+
+h2 {
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#signupButton {
+  width: 100px;
+  height: 50px;
+  align-self:center;
+  margin-top: 10px;
+}
